@@ -6,6 +6,7 @@ y-axis, 租借的次數
 租借的類型有borrow和return兩種
 """
 
+import sys
 import numpy as np
 import pandas as pd
 import pywt
@@ -15,6 +16,8 @@ from dateutil.rrule import rrule, DAILY, MONTHLY
 
 from Method.LoadData import LoadData
 from Method.WaveletTransform import WaveletTransform
+
+print(sys.path)
 
 
 def generate_target_timeseries(start_year, end_year):

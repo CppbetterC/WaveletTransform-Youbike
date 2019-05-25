@@ -23,7 +23,6 @@ center = [25.049034, 121.514252]
 gmap = gmplot.GoogleMapPlotter(center[0], center[1], 13)
 gmap.scatter(ubike_station_latitude, ubike_station_longitude, '#FF0000', size=40, marker=False)
 rel_path = '../Data/Map/scatter.html'
-# gmap.apikey = 'AIzaSyDeRNMnZ__VnQDiATiuz4kPjF_c9r1kWe8'
 gmap.draw(rel_path)
 
 gheatmap = gmplot.GoogleMapPlotter(center[0], center[1], 13)

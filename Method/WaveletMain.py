@@ -17,8 +17,6 @@ from dateutil.rrule import rrule, DAILY, MONTHLY
 from Method.LoadData import LoadData
 from Method.WaveletTransform import WaveletTransform
 
-print(sys.path)
-
 
 def generate_target_timeseries(start_year, end_year):
     """
